@@ -1,0 +1,241 @@
+/* GLOBAL */
+body {
+    background-color: #FB6B6B;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ion-icon{
+    font-size: 28px;
+}
+
+/* SCREEN 01 */
+/* Start */
+
+.start img{
+    width: 136px;
+    height: 161px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.start h1{
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.start-button{
+    width: 246px;
+    height: 54px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D70900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SCREEN 02 */
+
+/* Header */
+.header img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.header h1{
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.header-itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Game */
+
+.allQuestions{
+    margin-bottom: 190px;    
+}
+
+/* Button with questions hidden */
+.play-button{
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    padding-left: 15px;
+
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    font-size: 28px;
+    right: 0;
+    margin-right: 10px;
+}
+
+.right{
+    text-decoration: line-through;
+    color: green;
+}
+
+.partial{
+    text-decoration: line-through;
+    color: orange;
+}
+
+.wrong{
+    text-decoration: line-through;
+    color: red;
+}
+
+/* Button with questions reveled */
+.question-button{
+    position: relative;
+    width: 299px;
+    background-color: #FFFFD4;
+    border-radius: 4px;
+    word-break: break-word;
+    padding: 12px 12px 80px 12px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: 'Recursive';
+    font-size: 16px;
+}
+
+.anwser-button{
+    position: relative;
+    width: 299px;
+    background-color: #FFFFD4;
+    border-radius: 4px;
+    word-break: break-word;
+    padding: 12px 12px 80px 12px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: 'Recursive';
+    font-size: 16px;
+}
+
+
+.arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 12px;
+}
+
+/* Anwsers */
+.anwser div{
+    width: 85.17px;
+    height: 37.17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    color:#FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    margin: 4px;
+    position: absolute;
+    bottom:0;
+    display: inline-block;
+}
+
+/* Types of anwsers */
+.anwser-one{
+    background-color: red;
+    left: 10px;
+    padding-top: 3px;
+}
+
+.anwser-two{
+    background-color: orange;
+    right: 103px;
+    padding-top: 3px;
+}
+
+.anwser-three{
+    background-color: green;
+    right: 10px;
+    padding-top: 10px;
+}
+
+/* Footer */
+.footer-main{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-weight: 700;
+}
+
+.footer-text{
+    margin:12px;
+    width: 240px;
+    text-align: center;
+}
+
+.footer-icons{
+    margin-top: 5px;
+}
