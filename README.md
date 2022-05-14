@@ -1,4 +1,4 @@
-Deplpy on Versel: https://projeto-08-zaprecall.vercel.app
+Deploy on Versel: https://projeto-08-zaprecall.vercel.app
 
 # Getting Started with Create React App
 
