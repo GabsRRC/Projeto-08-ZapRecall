@@ -149,7 +149,7 @@ ion-icon{
     font-size: 16px;
 }
 
-.anwser-button{
+.answer-button{
     position: relative;
     width: 299px;
     background-color: #FFFFD4;
@@ -171,8 +171,8 @@ ion-icon{
     margin: 12px;
 }
 
-/* Anwsers */
-.anwser div{
+/* answers */
+.answer div{
     width: 85.17px;
     height: 37.17px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -186,20 +186,20 @@ ion-icon{
     display: inline-block;
 }
 
-/* Types of anwsers */
-.anwser-one{
+/* Types of answers */
+.answer-one{
     background-color: red;
     left: 10px;
     padding-top: 3px;
 }
 
-.anwser-two{
+.answer-two{
     background-color: orange;
     right: 103px;
     padding-top: 3px;
 }
 
-.anwser-three{
+.answer-three{
     background-color: green;
     right: 10px;
     padding-top: 10px;
