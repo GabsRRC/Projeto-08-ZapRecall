@@ -7,7 +7,7 @@ export default function Content(){
         <div>
             <Header />
             <Play/>
-            <Footer/>
+            
         </div>
     )
 }
