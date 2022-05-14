@@ -1,9 +1,13 @@
+import logos from "./img/logos.png"
+
+import { Link } from "react-router-dom";
+
 export default function Start({setTela}){
     return(
         <div className="content start">
-            <img src="img/logos.png" alt="logos"/>
+            <img src={logos} alt="logos"/>
             <h1>ZapRecall</h1>
-            <div onClick={() => setTela('game')} className="start-button">Iniciar Recall!</div>
+            <div className="start-button"><Link to="/game">Iniciar Recall!</Link></div>
         </div>
     )
 }

@@ -1,4 +1,8 @@
 /* GLOBAL */
+a{
+    text-decoration: none;
+}
+
 body {
     background-color: #FB6B6B;
 }
@@ -58,6 +62,10 @@ ion-icon{
     align-items: center;
 }
 
+.start-button a {
+  color: #333333;  
+}
+
 
 /* SCREEN 02 */
 
@@ -86,7 +94,7 @@ ion-icon{
 /* Game */
 
 .allQuestions{
-    margin-bottom: 190px;    
+    margin-bottom: 210px;    
 }
 
 /* Button with questions hidden */
@@ -135,7 +143,7 @@ ion-icon{
 }
 
 /* Button with questions reveled */
-.question-button{
+.question-button , .answer-button{
     position: relative;
     width: 299px;
     background-color: #FFFFD4;
@@ -148,21 +156,6 @@ ion-icon{
     font-family: 'Recursive';
     font-size: 16px;
 }
-
-.answer-button{
-    position: relative;
-    width: 299px;
-    background-color: #FFFFD4;
-    border-radius: 4px;
-    word-break: break-word;
-    padding: 12px 12px 80px 12px;
-    margin-top: 12.5px;
-    margin-bottom: 12.5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    font-family: 'Recursive';
-    font-size: 16px;
-}
-
 
 .arrow{
     position: absolute;
@@ -190,19 +183,19 @@ ion-icon{
 .answer-one{
     background-color: red;
     left: 10px;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 .answer-two{
     background-color: orange;
     right: 103px;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 .answer-three{
     background-color: green;
     right: 10px;
-    padding-top: 10px;
+    padding-top: 11px;
 }
 
 /* Footer */
@@ -210,7 +203,6 @@ ion-icon{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding-top: 20px;
     padding-bottom: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
@@ -227,6 +219,7 @@ ion-icon{
 }
 
 .footer-title{
+    padding-top: 5px;
     font-weight: 700;
 }
 
@@ -238,4 +231,20 @@ ion-icon{
 
 .footer-icons{
     margin-top: 5px;
+}
+
+.retry{
+    width: 167px;
+    height: 32px;
+    background: #FB6B6B;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.retry a{
+    color: #FFFFFF;
 }
